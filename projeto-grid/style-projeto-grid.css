@@ -26,12 +26,18 @@ body{
     text-decoration: none;
 }
 
+.logo-navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
 .page-1{
     display: grid;
     grid-template-columns: 3fr 1fr;
     align-items: center;
-    gap: 160px;
-    padding: 0 16%;
+    padding: 5% 16%;
 }
 
 .page-1 h1{
@@ -88,10 +94,19 @@ body{
     align-self: center;
     background-color: rgb(246, 246, 246);
     border: none;
+    border-radius: 4px;
     font-size: 20px;
     font-weight: 10;
     letter-spacing: 4px;
     cursor: pointer;
+    margin-top: 50px;
+    padding: 20px 20px;
+}
+
+.page-2-texts button:hover{
+    background-color: rgb(235, 235, 235);
+    transition: 0.1s ease-in-out;
+    
 }
 
 .page-2-images{
@@ -106,7 +121,7 @@ body{
     grid-column: 2;
     grid-row: 1 / span 2;
     margin-top: 50px;
-    margin-right: 150px;
+    margin-right: 200px;
 }
 
 .page-3{
