@@ -355,3 +355,23 @@ footer {
 .limpar {
     clear: both;
 }
+
+@media screen and (max-width: 450px) {
+    .navbar {
+        display: none;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        line-height: 40px;
+        padding: 5%;
+    }
+
+    .sidebar-buttons button {
+        font-size: 1.5em;
+        border: none;
+    }
+}
