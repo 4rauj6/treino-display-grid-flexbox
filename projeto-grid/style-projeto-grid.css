@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto";
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+    margin: 1%;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.page-1{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    gap: 160px;
+    padding: 0 16%;
+}
+
+.page-1 img{
+    width: auto;
+    height: auto;
+}
+
+.text-page-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 50px;
+    font-size: 2.4em;
+}
+
+.page-2{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1px;
+    padding: 3% 10%;
+    background-color: #FBFBFB;
+}
+
+.page-2-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 35px;
+}
+
+.page-2-texts h1{
+    font-size: 4em;
+    font-weight: 50;
+}
+
+.page-2-texts p{
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.page-2-texts button{
+    align-self: center;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    font-size: 20px;
+    font-weight: 10;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+.page-2-images{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.middle-image{
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.primary-h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+}
+
+.secundary-page-3-texts{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+}
+
+.secundary-page-3-texts h1{
+    font-size: 8em;
+    color: rgba(0, 0, 0, 0.093);
+}
+
+.secundary-page-3-texts p{
+    width: 25%;
+    word-spacing: 10px;
+}
